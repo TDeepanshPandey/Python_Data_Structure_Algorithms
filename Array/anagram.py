@@ -1,5 +1,4 @@
 """ 
-My Solution
 def anagram(s1,s2):
     tmp1 =list(s1)
     tmp1.sort()
