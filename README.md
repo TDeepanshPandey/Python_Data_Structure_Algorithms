@@ -10,3 +10,5 @@ Big O Cheat sheet (Time Complexity) - *https://www.bigocheatsheet.com/*
 5. **Sentence Reversal** - Given a string of words, reverse all the words.
 6. **String Compression** - Given a string in the form 'AAAABBBBCCCCCDDEEEE' compress it to become 'A4B4C5D2E4'. For this problem, you can falsely "compress" strings of single or double letters. For instance, it is okay for 'AAB' to return 'A2B1' even though this technically takes more space.
 7. **Unique Characters in String** - Given a string,determine if it is compreised of all unique characters. For example, the string 'abcde' has all unique characters and should return True. The string 'aabcde' contains duplicate characters and should return false.
+
+### Stacks
