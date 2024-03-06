@@ -12,3 +12,20 @@ Big O Cheat sheet (Time Complexity) - *https://www.bigocheatsheet.com/*
 7. **Unique Characters in String** - Given a string,determine if it is compreised of all unique characters. For example, the string 'abcde' has all unique characters and should return True. The string 'aabcde' contains duplicate characters and should return false.
 
 ### Stacks
+1. **Implement a stack** - Try your best to implement your own stack! It should have the methods:
+    * Check if its empty
+    * Push a new item
+    * Pop an item
+    * Peek at the top item
+    * Return the size
+2. **Implement a queue** - A queue class should be able to do this:
+    * Check if Queue is Empty
+    * Enqueue
+    * Dequeue
+    * Return the size of the Queue
+3. **Implement a Deque** - A Deque class with the following methods:
+    * Check if its empty
+    * Add to both front and rear
+    * Remove from Front and Rear
+    * Check the Size
+4. **Balanced Parenthesis Check** - Given a string of opening and closing parentheses, check whether it’s balanced. We have 3 types of parentheses: round brackets: (), square brackets: [], and curly brackets: {}. Assume that the string doesn’t contain any other character than these, no spaces words or numbers. As a reminder, balanced parentheses require every opening parenthesis to be closed in the reverse order opened. For example ‘([])’ is balanced but ‘([)]’ is not. 
