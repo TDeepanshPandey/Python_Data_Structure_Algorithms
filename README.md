@@ -32,3 +32,13 @@ Big O Cheat sheet (Time Complexity) - *https://www.bigocheatsheet.com/*
 
 ### Linked List
 1. **Singly Linked List Cycle Check** - Given a singly linked list, write a function which takes in the first node in a singly linked list and returns a boolean indicating if the linked list contains a "cycle". A cycle is when a node's next point actually points back to a previous node in the list. This is also sometimes known as a circularly linked list.
+2. **Linked List Reversal** - A function to reverse a Linked List in place. The function will take in the head of the list as input and return the new head of the list.
+3. **Linked List Nth to Last Node** - A function that takes a head node and an integer value **n** and then returns the nth to last node in the linked list.
+4. **Doubly Linked List** - Implement a node class and show how it can be used to create a doubly linked list.
+5. **Singly Linked List** - Create a node class and show how it can be used to create a Singly Linked List.
+
+### Recursion
+1. **Recurring Sum** - A recursive function which takes an integer and computes the cumulative sum of 0 to that integer.
+2. **Sum of All Individual Digits** - A function which returns the sum of all the individual digits in that integer.
+3. **Word Splitting** - A function which takes in a string **phrase** and a set **list_of_words**. The function will then determine if it is possible to split the string in a way in which words can be made from the list of words. You can assume the phrase will only contain words found in the dictionary if it is completely splittable.
+4. **Reverse a String** -  Reverse a string using recursion. Make sure to think of the base case here.
