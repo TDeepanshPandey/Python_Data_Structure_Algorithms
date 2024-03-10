@@ -5,14 +5,17 @@ class Node(object):
         self.value = value
         self.nextnode = None
 
+
 def cycle_check(node):
-    cycle_check_flag = False
-    while node.nextnode == None or node.nextnode == node:
-        node = node.nextnode
-        if node.nextnode == node:
-            cycle_check_flag = True
-        cycle_check(node)
-    return cycle_check_flag
+    first_node = node
+    try: 
+        while node.nextnode != None or node.nextnode != first_node:
+            node = node.nextnode
+            if node.nextnode == first_node:
+                return True
+        return False
+    except:
+        return False
 
 """
 RUN THIS CELL TO TEST YOUR SOLUTION
