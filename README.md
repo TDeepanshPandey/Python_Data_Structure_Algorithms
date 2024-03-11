@@ -42,3 +42,7 @@ Big O Cheat sheet (Time Complexity) - *https://www.bigocheatsheet.com/*
 2. **Sum of All Individual Digits** - A function which returns the sum of all the individual digits in that integer.
 3. **Word Splitting** - A function which takes in a string **phrase** and a set **list_of_words**. The function will then determine if it is possible to split the string in a way in which words can be made from the list of words. You can assume the phrase will only contain words found in the dictionary if it is completely splittable.
 4. **Reverse a String** -  Reverse a string using recursion. Make sure to think of the base case here.
+5. **Fibonnaci Sequence** - Implement a Fibonnaci Sequence in three different ways:
+    * Recursively
+    * Dynamically (Using Memoization to store results)
+    * Iteratively
